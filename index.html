@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 <style>
-a:link, a:visited {
-    background-color: #3390FF;
-    color: black;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+div.container {
+    width: 100%;
+    border: 1px solid gray;
 }
 
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
 
-a:hover, a:active {
-    background-color: red;
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
 }
 </style>
 </head>
 <body>
 
-  <img src="http://mscg.acc.chula.ac.th/images/cbs_banner.jpg" style="max-width:100%;height:auto;">
+<div class="container">
+
+<header>
+   <img src="http://mscg.acc.chula.ac.th/images/cbs_banner.jpg" style="max-width:100%;height:auto;">
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">เกี่ยวกับ</a></li>
+    <li><a href="http://it.cbs.chula.ac.th/reg_master_listener.aspx">วิธีเข้าร่วมฟัง</a></li>
+    <li><a href="#">ตารางการนำเสนอ</a></li>
+    <li><a href="#">สอบถามเพิ่มเติม</a></li>
+  </ul>
+</nav>
+
+<article>
   <h1 style="text-align:center;">การนำเสนอโครงการพิเศษต่อสาธารณชน</h1>
   <p style="text-align:center;">วันเสาร์ที่  17  กุมภาพันธ์  2561  เวลา  9.00 - 17.00 น.</p>
   <p style="text-align:center;">อาคารอนุสรณ์ 50 ปี ชั้น 6 คณะพาณิชยศาสตร์และการบัญชี จุฬาลงกรณ์มหาวิทยาลัย  </p>
-  
-  <a href="http://it.cbs.chula.ac.th/reg_master_listener.aspx" target="_blank">Registration</a>
-  
+  </article>
+
+<footer>Copyright &copy; W3Schools.com</footer>
+
+</div>
+
 </body>
 </html>
